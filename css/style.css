@@ -1,0 +1,39 @@
+body {
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background-color: blue;
+    width: 40%;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container > div {
+    width: 50%;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+p {
+    font-size: 20px;
+}
+
+#password {
+    font-size: 25px;
+    padding: 10px;
+    background-color: lightgreen;
+    border-radius: 5px;
+    color: black;
+    border: 2px solid black;
+    overflow: auto;
+}
